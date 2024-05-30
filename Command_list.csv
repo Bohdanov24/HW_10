@@ -1,5 +1,4 @@
     1  git config  --global "Vladyslav Bohdanov"
-    2  git config  --global user name  "Vladyslav Bohdanov"
     3  git config  --global user.name "Vladyslav Bohdanov"
     4  git config  --global user.email "vladiktaylor@gmail.com"
     5  clear 
