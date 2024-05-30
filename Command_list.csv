@@ -10,22 +10,21 @@
    10  ls -1
    11  nano .gitignore
    12  git status
-   13  git add
-   14  git add .
-   15  git commit -m "Add text_ignore.txt to .gitignore and create text_ignore.txt file"
-   16  touch main_test.txt
-   17  git add .
-   18  git commit -m "Add empty main_test.txt file"
-   19  git checkout  -b develop
-   20  touch develop_test.txt
-   21  git add .
-   22  git commit -m "Add empty develop_test.txt file"
-   23  echo "Some changes for the develop branch" >develop_test.txt
-   24  git status
-   25  git add .
-   26  git commit -m "Update develop_test.txt with changes"
-   27  git log
-   28  git checkout main
-   29  git merge develop
-   30  git log
-   31  history > Command_list.csv
+   13  git add .
+   14  git commit -m "Add text_ignore.txt to .gitignore and create text_ignore.txt file"
+   15  touch main_test.txt
+   16  git add .
+   17  git commit -m "Add empty main_test.txt file"
+   18  git checkout  -b develop
+   19  touch develop_test.txt
+   20  git add .
+   21  git commit -m "Add empty develop_test.txt file"
+   22  echo "Some changes for the develop branch" >develop_test.txt
+   23  git status
+   24  git add .
+   25  git commit -m "Update develop_test.txt with changes"
+   26  git log
+   27  git checkout main
+   28  git merge develop
+   29  git log
+   30  history > Command_list.csv
